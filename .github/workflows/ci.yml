@@ -24,3 +24,8 @@ jobs:
 
       - name: Run ESLint
         run: npm run lint
+
+      - name: Print current date
+        run: |
+          echo "Сьогоднішня дата: $(date)"
+          echo "Дата виведена успішно!"
